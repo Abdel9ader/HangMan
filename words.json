@@ -1,0 +1,74 @@
+{
+  "players": [
+    "Cristiano Ronaldo",
+    "Lionel Messi",
+    "Mbappe",
+    "Erling Haaland",
+    "Salah",
+    "De Bruyne",
+    "Omar Gaber",
+    "Lamine Yamal",
+    "Bellingham",
+    "Griezmann"
+  ],
+  "countries": [
+    "Egypt",
+    "Saudi Arabia",
+    "Morocco",
+    "Argentina",
+    "Brazil",
+    "France",
+    "Germany",
+    "Japan",
+    "South Korea",
+    "United States"
+  ],
+  "movies": [
+    "Oppenheimer",
+    "Barbie",
+    "Dune",
+    "Interstellar",
+    "Inception",
+    "Avengers",
+    "The Batman",
+    "Joker",
+    "Frozen",
+    "Inside Out"
+  ],
+  "programming": [
+    "JavaScript",
+    "Python",
+    "C Sharp",
+    "Java",
+    "PHP",
+    "Go",
+    "Rust",
+    "TypeScript",
+    "Kotlin",
+    "Swift"
+  ],
+  "sports": [
+    "Football",
+    "Basketball",
+    "Tennis",
+    "Volleyball",
+    "Handball",
+    "Swimming",
+    "Cycling",
+    "Wrestling",
+    "Athletics",
+    "Boxing"
+  ],
+  "fruits": [
+    "Apple",
+    "Banana",
+    "Orange",
+    "Strawberry",
+    "Mango",
+    "Watermelon",
+    "Pineapple",
+    "Grapes",
+    "Kiwi",
+    "Peach"
+  ]
+}

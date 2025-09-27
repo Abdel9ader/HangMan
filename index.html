@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Opening Loading Screen -->
+    <div class="opening-screen" id="openingScreen">
+        <div class="hangman-logo">
+            <div class="logo-graphic">
+                <div class="gallows">
+                    <div class="pole"></div>
+                    <div class="beam"></div>
+                    <div class="rope"></div>
+                    <div class="head"></div>
+                </div>
+            </div>
+            <div class="logo-text">HANGMAN</div>
+            <div class="logo-subtitle">Word Guessing Game</div>
+        </div>
+        <div class="loading-container">
+            <div class="loading-bar" id="loadingBar"></div>
+        </div>
+        <div class="loading-text" id="loadingText">Loading game assets...</div>
+    </div>
+
+    <!-- Main Game Container -->
+    <div class="container" id="gameContainer">
+        <div class="game-title">
+            <h1>Hangman Game</h1>
+            <p>Guess the word before the man is hanged!</p>
+        </div>
+        
+        <div class="game-info">
+            <div class="game-name">Hangman</div>
+            <div class="category">
+                Category: <span id="category-name">Loading...</span>
+            </div>
+        </div>
+        
+        <hr>
+        
+        <div class="attempts-counter">
+            Wrong Attempts: <span id="wrong-attempts">0</span> / 8
+        </div>
+        
+        <div class="game-area">
+            <div class="hangman-draw">
+                <div class="the-draw">
+                    <div class="the-stand"></div>
+                    <div class="the-hang"></div>
+                    <div class="the-rope"></div>
+                    <div class="the-man">
+                        <div class="head"></div>
+                        <div class="body"></div>
+                        <div class="hands"></div>
+                        <div class="legs"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="letters-container">
+                <div class="letters"></div>
+            </div>
+        </div>
+        
+        <hr>
+        
+        <div class="word-display"></div>
+        
+        <button class="restart-btn" id="restart-btn" style="display: none;">Play Again</button>
+        
+        <div class="developer-credit">
+            Developed by <span>Abdelkader Mohamed</span> <span class="brown-heart">🤎</span>
+        </div>
+    </div>
+
+    <audio id="success" src="./audio/success.mp3" preload="auto"></audio>
+    <audio id="fail" src="./audio/fail.mp3" preload="auto"></audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
