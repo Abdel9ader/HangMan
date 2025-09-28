@@ -362,7 +362,7 @@
             height: 3px;
             background: linear-gradient(to right, #a78bfa, #8b5cf6);
             width: 70px;
-            left: 20px;
+            left: 15px;
             top: 10px;
         }
 
@@ -372,7 +372,7 @@
             width: 3px;
             height: 20px;
             background: linear-gradient(to bottom, #a78bfa, #8b5cf6);
-            left: 90px;
+            left: 85px;
             top: 10px;
         }
 
@@ -381,7 +381,7 @@
             height: 50px;
             border-radius: 50%;
             position: absolute;
-            left: 65px;
+            left: 63px;
             top: 30px;
             border: 3px dashed #a78bfa;
             display: none;
@@ -400,7 +400,7 @@
             border-radius: 50%;
             border: 3px solid #ddd6fe;
             position: absolute;
-            left: 72px;
+            left: 70px;
             top: 37px;
             display: none;
         }
@@ -411,7 +411,7 @@
             width: 3px;
             height: 80px;
             top: 70px;
-            left: 90px;
+            left: 86px;
             display: none;
         }
 
@@ -420,12 +420,12 @@
         }
 
         .hangman-draw .the-man .hands:before {
-            left: 60px;
+            left: 55px;
             transform: rotate(30deg);
         }
 
         .hangman-draw .the-man .hands:after {
-            left: 90px;
+            left: 85px;
             transform: rotate(-30deg);
         }
 
@@ -444,12 +444,12 @@
         }
 
         .hangman-draw .the-man .legs:before {
-            left: 60px;
+            left: 55px;
             transform: rotate(-30deg);
         }
 
         .hangman-draw .the-man .legs:after {
-            left: 90px;
+            left: 85px;
             transform: rotate(30deg);
         }
 
@@ -460,7 +460,7 @@
             position: absolute;
             height: 3px;
             background: linear-gradient(to right, #ddd6fe, #c4b5fd);
-            top: 150px;
+            top: 157px;
         }
 
         .hangman-draw.wrong-1 .the-draw {
